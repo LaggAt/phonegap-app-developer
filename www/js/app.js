@@ -79,7 +79,8 @@ $(document).on('deviceready', function() {
                 $('.visor .eye').addClass('hidden');
             }, 3350 );
         });
-        
+
+        /*
         var push = PushNotification.init({
             "android": {
                 "senderID": "741175631277",
@@ -93,7 +94,6 @@ $(document).on('deviceready', function() {
             }, 
             "windows": {} 
         });
-        //        "senderID": "741175631277"
         
         push.on('registration', function(data) {
             console.log("registration event");
@@ -107,7 +107,9 @@ $(document).on('deviceready', function() {
 
         push.on('error', function(e) {
             console.log("push error = " + e.message);
-        });        
+        });     
+        */
+
     }, 350);
 });
 
